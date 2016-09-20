@@ -1,12 +1,12 @@
 
 from fabric.api import local
 
-def hello(name='Fabric!'):
-    print 'Hello {0}' .format(name)
+# def hello(name='Fabric!'):
+#     print 'Hello {0}' .format(name)
 
-def test():
-    print 'App Testing....'
-    local('./manage.py test fabapp')
+# def test():
+#     print 'App Testing....'
+#     local('./manage.py test fabapp')
 
 def commit():
     print 'Committing the changes....'
